@@ -4,18 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>HTML MOLA</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles-dark.css">
 </head>
 
-<body>
+<body id="dark">
     <header id="cabecera">
         <h2>Bangkok</h2>
-        <p id="dar-mode">Dark Mode </p>
+        <p id="dar-mode">Light Mode </p>
         <input type="checkbox" id="check">
         <div id="container">
-            <label for="check" class="toogle"> <img class="img-sol" width="50" src="assets/img/sol.png"></label>
+            <label for="check" class="toogle"></label><img class="img-moon" src="assets/img/luna.png">
         </div>
-
     </header>
     <main>
 
@@ -47,7 +46,6 @@
         </div>
     </main>
 
+    <script src="./js/dark.js"></script>
 
-
-    <script src="./js/script.js"></script>
 </body>
